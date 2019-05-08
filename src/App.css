@@ -1,0 +1,72 @@
+.previewComponent {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.uploadFile {
+  width: 21%;
+  height: 40px;
+  background-color: whitesmoke;
+  border: solid 0.5px gainsboro;
+  text-align: left;
+}
+
+.uploadFile div {
+  display: flex;
+  vertical-align: sub;
+  padding: 10px;
+  color: darkgray;
+}
+
+.uploadFile div form {
+  padding-left: 40px;
+}
+
+.docName {
+  height: 40px;
+  width: 78%;
+  border: solid 0.5px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+
+.docList {
+  height: -webkit-fill-available;
+  width: 21%;
+  border: solid 0.5px gainsboro;
+  background-color: whitesmoke;
+}
+
+.docList div {
+  padding: 20px;
+  text-align: center;
+  border-bottom: solid 0.5px gainsboro;
+  background: white;
+}
+
+.docList div:hover {
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+.filePreview {
+  width: 78%;
+  max-width: 78%;
+  border: solid 0.5px gainsboro;
+  height: -webkit-fill-available;
+  overflow: auto;
+}
+
+.filePreview img {
+  max-width: 80%;
+}
+
+.uploadimg {
+  height: 13px;
+  padding-left: 6px;
+}
